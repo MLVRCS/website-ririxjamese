@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Comic Sans Ms ;
+}
+
+/* Style the header */
+header {
+  background-color:SlateBlue;;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:SlateBlue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>Jamese Estes Webpage</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">https://www.mathplayground.com/pg_cubeform.html</a></li>
+      <li><a href="#">https://replit.com/@Mutual/Slope-Game</a></li>
+      <li><a href="#">puzzleplayground.com</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>All about me</h1>
+    <p>I am a girl</p>
+    <p>I like basketball</p>
+  </article>
+</section>
+
+<footer>
+  <p>Jamese Estes & jestes2@mlvrcs.org</p>
+</footer>
+
+</body>
+</html>
+
